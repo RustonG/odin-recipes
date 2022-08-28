@@ -1,5 +1,30 @@
+* {
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.article {
+  text-align: justify;
+  width: 45%;
+  min-width: 500px;
+  border: 2px solid lightblue;
+  margin: 12px auto 12px auto;
+  padding: 12px;
+  box-shadow: 5px 4px 4px lightblue;
+  border-radius: 5px;
+}
+
 .home {
   text-transform: uppercase;
+  font-size: 20px;
+}
+
+h1, h2 {
+  margin: 10px auto 10px auto;
+}
+
+a:hover {
+  color: rgb(255, 174, 0);
 }
 
 img {
